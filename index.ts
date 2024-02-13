@@ -1,7 +1,4 @@
-import chalk from 'chalk';
 import inquirer, { Answers, QuestionCollection } from 'inquirer';
-import Choices from 'inquirer/lib/objects/choices.js';
-
 
 const questions: QuestionCollection = [{
     name: 'num1',
